@@ -1,3 +1,92 @@
-body{
-    background-color: blue;
+*{
+    padding: 0;
+    margin: 0;
 }
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: Helvetica;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)-50%), url(engin-akyurt-Hlkuojv_P6I-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.navigation {
+    width: 95%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.name{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    padding-top: .6%;
+    cursor: pointer;
+    color: white;
+}
+
+.menubar{
+    width: 60px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: blue;
+}
+
+.info{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.info h1{
+    cursor: pointer;
+    font-family: cursive;
+    color: blue;
+
+}
+ .button{
+    position: absolute;
+    bottom: 0%;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ .btn{
+    color: white;
+    padding: 5px,20px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid white;
+
+ }
